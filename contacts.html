@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+<style>
+    p {
+      font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: left; color: rgba(0, 0, 0, 0.936);
+    }
+  </style>
+<body>
+    <h2>My Contacts</h2>
+    <p> Email Address: Chabuvincent@gmail.com</p>
+    <p> Phone number : +260973049519<p>
+    <hr>
+    <h2>Would like to get intouch?</h2>
+    <form action="mailto:" method="post" enctype="text/plain">
+      <label for="name" >Your Name:</label>
+      <input type="text" id="name" name="yourName" value=""><br><br>
+      <label for="email" >Your Email:</label>
+      <input type="email" id="email" name="yourEmail"value=""><br><br>
+      <label for="Message" >Your Message:</label><br>
+      <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
+      <input type="submit">
+    </form>
+</body>
+</html>
